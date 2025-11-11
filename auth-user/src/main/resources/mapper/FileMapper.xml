@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.mapper.FileMapper">
+
+    <insert id="insertFile">
+        insert into sys_file(file_name, storage_name, file_ext, file_path, file_type, file_size, upload_user)
+        values (#{fileName}, #{storageName}, #{fileExt}, #{filePath}, #{fileType}, #{fileSize}, #{uploadUser})
+    </insert>
+
+</mapper>

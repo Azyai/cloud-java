@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cn.mapper.UserProfileMapper">
+
+    <resultMap id="userWithprofileMap" type="com.cn.entity.User">
+        <id property="id" column="id" />
+        <result property="username" column="username" />
+        <result property="email" column="email" />
+        <association property="userProfile" javaType="com.cn.entity.UserProfile">
+            <result property="address" column="address"/>
+            <result property="avatar" column="avatar"/>
+            <result property="bio" column="bio"/>
+            <result property="birthDate" column="birth_date"/>
+            <result property="gender" column="gender"/>
+            <result property="phone" column="phone"/>
+            <result property="realName" column="real_name"/>
+        </association>
+    </resultMap>
+
+
+    <select id="findUserProfileByUserByUserId" resultType="com.cn.resp.UserInfo">
+         select u.id,u.username,u.email,up.address,up.avatar,up.bio,up.birth_date,up.gender,up.phone,up.real_name
+         from `user` u
+         left join `user_profile` up on u.id = up.user_id
+         where u.username = #{userId} or u.email = #{userId} and u.enabled = 1
+    </select>
+</mapper>
