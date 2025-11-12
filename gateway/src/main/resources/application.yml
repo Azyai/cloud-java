@@ -61,3 +61,7 @@ spring:
           uri: lb://cloud-user
           predicates:
             - Path=/**
+        - id: cloud-userprofile
+          uri: lb://cloud-userprofile
+          predicates:
+            - Path=/api/user/**
