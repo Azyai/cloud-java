@@ -12,6 +12,7 @@
         <module>auth-user</module>
         <module>api-commons</module>
         <module>gateway</module>
+        <module>search-anything</module>
     </modules>
 
     <properties>
