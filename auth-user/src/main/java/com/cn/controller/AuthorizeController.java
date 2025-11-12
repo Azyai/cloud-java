@@ -156,7 +156,10 @@ public class AuthorizeController {
                 registerUser.getCode(), session.getId());
 
         if (s == null) {
+            System.out.println("afdf");
             return ResultData.success("注册成功");
+
+
         } else {
             return ResultData.fail("400", s);
         }
