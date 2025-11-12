@@ -6,6 +6,7 @@ public class SecurityConstants {
             "/api/auth/user/valid-register-email",
             "/api/auth/user/valid-reset-email",
             "/api/auth/user/start-reset",
+            "/api/auth/user/register",
             "/api/auth/user/do-reset",
             "/api/auth/user/valid-email",
             "/api/auth/user/fx",
@@ -18,8 +19,8 @@ public class SecurityConstants {
             "/webjars/**",
             "/error",
             "/static/**",
+            "/user/GetUserId",
             // 放行图标
             "/favicon.ico",
-            "/draw/activity/selectActivityInfo"
     };
 }

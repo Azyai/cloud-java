@@ -1,5 +1,6 @@
 package com.cn.controller;
 
+import com.cn.entity.RegisterUser;
 import com.cn.resp.LoginResponse;
 import com.cn.resp.ResultData;
 import com.cn.resp.UserInfo;
@@ -145,13 +146,14 @@ public class AuthorizeController {
 
     @Operation(description = "注册账号,需要验证邮件编码")
     @PostMapping("/register")
-    public ResultData<String> registerUser(@Pattern(regexp = UNAME_REGEXP) @Length(min = 3, max = 18) @RequestParam("username") String username,
-                                           @Length(min = 6, max = 18) @RequestParam("password") String password,
-                                           @Pattern(regexp = EMAIL_REGEXP) @RequestParam("email") String email,
-                                           @Length(min = 6, max = 6) @RequestParam("code") String code,
+    public ResultData<String> registerUser(@RequestBody RegisterUser registerUser,
                                            HttpServletRequest request) {
         HttpSession session = request.getSession();
-        String s = authorizeService.validateAndRegister(username, password, email, code, session.getId());
+        String s = authorizeService.validateAndRegister(
+                registerUser.getUsername(),
+                registerUser.getPassword(),
+                registerUser.getEmail(),
+                registerUser.getCode(), session.getId());
 
         if (s == null) {
             return ResultData.success("注册成功");
