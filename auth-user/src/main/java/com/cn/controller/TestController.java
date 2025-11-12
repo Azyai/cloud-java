@@ -20,7 +20,7 @@ import java.util.List;
  * 数据流转整体尽量还是要按照po、vo、dto、request进行分层
  */
 @RestController
-@RequestMapping("/api/auth/test")
+@RequestMapping("/auth-user/api/test")
 public class TestController {
 
     /**

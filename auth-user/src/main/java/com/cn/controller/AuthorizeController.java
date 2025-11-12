@@ -33,7 +33,7 @@ import java.util.List;
 @Tag(name = "用户系统", description = "用户接口管理模块")
 @Validated  //开启参数验证
 @RestController
-@RequestMapping(value = "/api/auth/user")
+@RequestMapping(value = "/auth-user/api/user")
 public class AuthorizeController {
     // 邮箱的校验规则
     private final String EMAIL_REGEXP = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}";
