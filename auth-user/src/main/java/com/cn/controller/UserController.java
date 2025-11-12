@@ -24,7 +24,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 @RestController
-@RequestMapping("/api/auth/find")
+@RequestMapping("/auth-user/api/find")
 public class UserController {
 
     @PreAuthorize("hasAuthority('2099')") // 只有拥有 '2099' 权限的用户才能访问
