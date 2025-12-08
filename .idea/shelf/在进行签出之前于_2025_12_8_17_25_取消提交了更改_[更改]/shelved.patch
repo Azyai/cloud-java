@@ -1,0 +1,86 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"886a8e1f-2b81-464b-8e36-501db7656a47\" name=\"更改\" comment=\"个人信息以及个人评价\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"AnnotationType\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Interface\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"35MCi004C15RH4VEQMBw9mmv5IN\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"compactDirectories\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"Spring Boot.Main9527.executor\": \"Run\",\r\n    \"Spring Boot.User8081.executor\": \"Run\",\r\n    \"Spring Boot.User8082.executor\": \"Run\",\r\n    \"jdk.selected.JAVA_MODULE\": \"ms-21\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"E:/Programer/IDEA/IdeaProjects/cloud-java/user_profile/src/main/resources\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"模块\",\r\n    \"project.structure.proportion\": \"0.1546875\",\r\n    \"project.structure.side.proportion\": \"0.6218097\",\r\n    \"settings.editor.selected.configurable\": \"com.github.copilot.settings.ApplicationConfigurable\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"DatabaseDriversLRU\": [\r\n      \"mysql_aurora_aws\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"ReactorSettings\">\r\n    <option name=\"notificationShown\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"com.cn.entity\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\Programer\\IDEA\\IdeaProjects\\cloud-java\\user_profile\\src\\main\\resources\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.cn.controller\" />\r\n      <recent name=\"com.cn.ai.entity\" />\r\n      <recent name=\"\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main9527\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"gateway\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.cn.Main9527\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\chy\\AppData\\Roaming\\Subversion</configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"886a8e1f-2b81-464b-8e36-501db7656a47\" name=\"更改\" comment=\"\" />\r\n      <created>1762910676531</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1762910676531</updated>\r\n      <workItem from=\"1762910677685\" duration=\"92000\" />\r\n      <workItem from=\"1762910777002\" duration=\"18892000\" />\r\n      <workItem from=\"1762936359403\" duration=\"1329000\" />\r\n      <workItem from=\"1762996226368\" duration=\"15673000\" />\r\n      <workItem from=\"1763088490758\" duration=\"11007000\" />\r\n      <workItem from=\"1764204051838\" duration=\"12000\" />\r\n      <workItem from=\"1765093123874\" duration=\"371000\" />\r\n      <workItem from=\"1765093506997\" duration=\"324000\" />\r\n      <workItem from=\"1765093845799\" duration=\"163000\" />\r\n      <workItem from=\"1765094018306\" duration=\"286000\" />\r\n      <workItem from=\"1765094345207\" duration=\"636000\" />\r\n      <workItem from=\"1765110342705\" duration=\"1556000\" />\r\n      <workItem from=\"1765116074280\" duration=\"59000\" />\r\n      <workItem from=\"1765116141339\" duration=\"39000\" />\r\n      <workItem from=\"1765155094607\" duration=\"211000\" />\r\n      <workItem from=\"1765155315752\" duration=\"239000\" />\r\n      <workItem from=\"1765155563809\" duration=\"48000\" />\r\n      <workItem from=\"1765155626249\" duration=\"810000\" />\r\n      <workItem from=\"1765157921346\" duration=\"522000\" />\r\n      <workItem from=\"1765158489147\" duration=\"482000\" />\r\n      <workItem from=\"1765158979520\" duration=\"94000\" />\r\n      <workItem from=\"1765159083826\" duration=\"167000\" />\r\n      <workItem from=\"1765159260236\" duration=\"91000\" />\r\n      <workItem from=\"1765159362563\" duration=\"663000\" />\r\n      <workItem from=\"1765172572772\" duration=\"268000\" />\r\n      <workItem from=\"1765172852510\" duration=\"705000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1762917594855</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1762917594855</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"feat(user_profile)个人信息测试\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1762936528925</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1762936528925</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"个人信息以及个人评价\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1763110145348</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1763110145348</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"v1.0.0-dev-chy\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test\" />\r\n    <MESSAGE value=\"个人信息测试\" />\r\n    <MESSAGE value=\"feat(user_profile)个人信息测试\" />\r\n    <MESSAGE value=\"个人信息以及个人评价\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"个人信息以及个人评价\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="886a8e1f-2b81-464b-8e36-501db7656a47" name="更改" comment="个人信息以及个人评价" />
++    <list default="true" id="886a8e1f-2b81-464b-8e36-501db7656a47" name="更改" comment="个人信息以及个人评价">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -20,9 +22,29 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <excluded-from-favorite>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="master" />
++              </list>
++            </value>
++          </entry>
++          <entry type="REMOTE">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </excluded-from-favorite>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="v1.0.0-dev-chy" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -59,7 +81,7 @@
+     "project.structure.last.edited": "模块",
+     "project.structure.proportion": "0.1546875",
+     "project.structure.side.proportion": "0.6218097",
+-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
+     "vue.rearranger.settings.migration": "true"
+   },
+   "keyToStringList": {
+@@ -130,6 +152,9 @@
+       <workItem from="1765159362563" duration="663000" />
+       <workItem from="1765172572772" duration="268000" />
+       <workItem from="1765172852510" duration="705000" />
++      <workItem from="1765182665668" duration="370000" />
++      <workItem from="1765183047520" duration="417000" />
++      <workItem from="1765183488666" duration="1872000" />
+     </task>
+     <task id="LOCAL-00001" summary="test">
+       <option name="closed" value="true" />
+@@ -155,7 +180,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1763110145348</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="个人信息以及个人评价">
++      <option name="closed" value="true" />
++      <created>1765182827955</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1765182827955</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

@@ -11,6 +11,7 @@ import jakarta.validation.constraints.NotNull;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  * 用户信息表（简化版实体类）
@@ -20,7 +21,7 @@ import java.time.LocalDateTime;
 public class UserInfo {
 
     private Long id;  // 用户ID（自增主键）
-
+    private Long userId;
     @NotBlank(message = "姓名不能为空")
     @Pattern(regexp = "^[\u4e00-\u9fa5a-zA-Z]{2,20}$", message = "姓名必须是2-20位中文或英文")
     private String name;      // 姓名
@@ -52,12 +53,15 @@ public class UserInfo {
     private String currentResidence;  // 现居住地
 
     private Boolean isEmployed = false;  // 是否就业（默认false）
-    
+
+    private Date timeEmployed; //求职时间
     @NotBlank(message = "最高学历不能为空")
     private String highestEducation;     // 最高学历
     
     @NotBlank(message = "求职状态不能为空")
     private String jobStatus;            // 求职状态
+
+
 
     @NotBlank(message = "民族不能为空")
     private String ethnicity;    // 民族
