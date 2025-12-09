@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="886a8e1f-2b81-464b-8e36-501db7656a47" name="更改" comment="个人信息以及个人评价" />
+    <list default="true" id="886a8e1f-2b81-464b-8e36-501db7656a47" name="更改" comment="个人信息以及个人评价">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e43a6c96-bbca-495e-9ace-d25b4cacb800.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e43a6c96-bbca-495e-9ace-d25b4cacb800.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/src/main/java/com/cn/ai/agent/AiEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/src/main/java/com/cn/ai/agent/AiEvaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/src/main/java/com/cn/ai/entity/LawPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/src/main/java/com/cn/ai/entity/LawPrompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_profile/src/main/java/com/cn/controller/ChatPromptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/src/main/java/com/cn/controller/ChatPromptController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,38 +43,38 @@
     <option name="compactDirectories" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Main9527.executor": "Run",
-    "Spring Boot.User8081.executor": "Run",
-    "Spring Boot.User8082.executor": "Run",
-    "jdk.selected.JAVA_MODULE": "ms-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Programer/IDEA/IdeaProjects/cloud-java/user_profile/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.1546875",
-    "project.structure.side.proportion": "0.6218097",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Main9527.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.User8081.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.User8082.executor&quot;: &quot;Run&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;ms-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Programer/IDEA/IdeaProjects/cloud-java/user_profile/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.1546875&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6218097&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora_aws"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -130,6 +137,7 @@
       <workItem from="1765159362563" duration="663000" />
       <workItem from="1765172572772" duration="268000" />
       <workItem from="1765172852510" duration="705000" />
+      <workItem from="1765241301591" duration="14026000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -155,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763110145348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="个人信息以及个人评价">
+      <option name="closed" value="true" />
+      <created>1765186313180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765186313180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
