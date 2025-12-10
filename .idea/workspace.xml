@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="886a8e1f-2b81-464b-8e36-501db7656a47" name="更改" comment="个人信息以及个人评价" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="35MCi004C15RH4VEQMBw9mmv5IN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Main9527.executor": "Run",
+    "Spring Boot.User8081.executor": "Run",
+    "Spring Boot.User8082.executor": "Run",
+    "jdk.selected.JAVA_MODULE": "ms-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Programer/IDEA/IdeaProjects/cloud-java/user_profile/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.1546875",
+    "project.structure.side.proportion": "0.6218097",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cn.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programer\IDEA\IdeaProjects\cloud-java\user_profile\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cn.controller" />
+      <recent name="com.cn.ai.entity" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cn.Main9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\chy\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="886a8e1f-2b81-464b-8e36-501db7656a47" name="更改" comment="" />
+      <created>1762910676531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762910676531</updated>
+      <workItem from="1762910677685" duration="92000" />
+      <workItem from="1762910777002" duration="18892000" />
+      <workItem from="1762936359403" duration="1329000" />
+      <workItem from="1762996226368" duration="15673000" />
+      <workItem from="1763088490758" duration="11007000" />
+      <workItem from="1764204051838" duration="12000" />
+      <workItem from="1765093123874" duration="371000" />
+      <workItem from="1765093506997" duration="324000" />
+      <workItem from="1765093845799" duration="163000" />
+      <workItem from="1765094018306" duration="286000" />
+      <workItem from="1765094345207" duration="636000" />
+      <workItem from="1765110342705" duration="1556000" />
+      <workItem from="1765116074280" duration="59000" />
+      <workItem from="1765116141339" duration="39000" />
+      <workItem from="1765155094607" duration="211000" />
+      <workItem from="1765155315752" duration="239000" />
+      <workItem from="1765155563809" duration="48000" />
+      <workItem from="1765155626249" duration="810000" />
+      <workItem from="1765157921346" duration="522000" />
+      <workItem from="1765158489147" duration="482000" />
+      <workItem from="1765158979520" duration="94000" />
+      <workItem from="1765159083826" duration="167000" />
+      <workItem from="1765159260236" duration="91000" />
+      <workItem from="1765159362563" duration="663000" />
+      <workItem from="1765172572772" duration="268000" />
+      <workItem from="1765172852510" duration="705000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1762917594855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762917594855</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(user_profile)个人信息测试">
+      <option name="closed" value="true" />
+      <created>1762936528925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762936528925</updated>
+    </task>
+    <task id="LOCAL-00003" summary="个人信息以及个人评价">
+      <option name="closed" value="true" />
+      <created>1763110145348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763110145348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="v1.0.0-dev-chy" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="个人信息测试" />
+    <MESSAGE value="feat(user_profile)个人信息测试" />
+    <MESSAGE value="个人信息以及个人评价" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人信息以及个人评价" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

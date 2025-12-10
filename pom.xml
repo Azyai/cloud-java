@@ -13,6 +13,7 @@
         <module>api-commons</module>
         <module>gateway</module>
         <module>search-anything</module>
+        <module>user_profile</module>
     </modules>
 
     <properties>

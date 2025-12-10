@@ -1,0 +1,61 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    nacos:
+      discovery: localhost:8848
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://101.37.13.81:3306/ah2025?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+#    username: db_user
+#    password: cxk234411!
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://118.31.120.30:3306/user_profile?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: cloud-userprofile
+  mail:
+    host: smtp.qq.com
+    protocol: smtp
+    username: 1115060927@qq.com
+    password: yrxziyahybdsfihj
+    port: 465
+    properties:
+      from: 1115060927@qq.com
+      mail:
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+  data:
+    redis:
+      host: 118.31.120.30
+      port: 6379
+      password: 123456
+
+jwt:
+  secret: ntzvtcNo+hjeo4br7lk5VVYfzxN7fya465deA8+dfqw=
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true  # 开启驼峰命名映射
+
+# 后端项目的相对路径地址
+file:
+  upload-dir: D://uploads  # 实际存储路径,部署时请换成Linux的系统
+  #relative-path: /uploads  # 项目中的相对路径
+langchain4j:
+  community:
+    dashscope:
+      streaming-chat-model:
+        api-key: ${aliQwen-api}
+        model-name: qwen3-max
+logging:
+  level:
+    org.springframework.security: DEBUG
