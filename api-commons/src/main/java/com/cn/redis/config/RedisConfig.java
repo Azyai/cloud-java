@@ -1,4 +1,4 @@
-package com.cn.config;
+package com.cn.redis.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
