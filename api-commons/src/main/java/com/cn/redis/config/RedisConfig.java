@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
-import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.*;
 import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
@@ -44,4 +44,53 @@ public class RedisConfig
 
         return redisTemplate;
     }
+
+
+    // 哈希表，存储对象属性
+    @Bean
+    public HashOperations<String, String, Object> hashOperations(RedisTemplate<String, Object> redisTemplate) {
+        return redisTemplate.opsForHash();
+    }
+
+    // 字符串，存储字符串、缓存对象、计数器、分布式锁、位图(布隆过滤器等等)
+    @Bean
+    public ValueOperations<String, Object> valueOperations(RedisTemplate<String, Object> redisTemplate) {
+        return redisTemplate.opsForValue();
+    }
+
+    // 列表，存储列表、队列、栈，最新的N条记录
+    @Bean
+    public ListOperations<String, Object> listOperations(RedisTemplate<String, Object> redisTemplate) {
+        return redisTemplate.opsForList();
+    }
+
+    @Bean
+    public SetOperations<String, Object> setOperations(RedisTemplate<String, Object> redisTemplate) {
+        return redisTemplate.opsForSet();
+    }
+
+    // 排行榜，带权重的队列等等
+    @Bean
+    public ZSetOperations<String, Object> zSetOperations(RedisTemplate<String, Object> redisTemplate) {
+        return redisTemplate.opsForZSet();
+    }
+
+    /**
+     * 扩展：GEO 地理位置操作
+     * 对应 Redis 命令：GEOADD, GEODIST, GEORADIUS 等
+     */
+    @Bean
+    public GeoOperations<String, Object> geoOperations(RedisTemplate<String, Object> redisTemplate) {
+        return redisTemplate.opsForGeo();
+    }
+
+    /**
+     * 扩展：HyperLogLog 基数统计操作
+     * 对应 Redis 命令：PFADD, PFCOUNT 等
+     */
+    @Bean
+    public HyperLogLogOperations<String, Object> hyperLogLogOperations(RedisTemplate<String, Object> redisTemplate) {
+        return redisTemplate.opsForHyperLogLog();
+    }
+
 }
